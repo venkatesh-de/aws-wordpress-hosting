@@ -1,11 +1,9 @@
-# aws-wordpress-hosting
-WordPress Hosting using AWS VPC, EC2, RDS and S3
-# WordPress Hosting on AWS
+# a# WordPress Hosting on AWS
 
 ## Project Overview
 This project demonstrates how to host a WordPress website using AWS services.
 
-## AWS Services Used
+## AWS Services
 - Amazon VPC
 - Amazon EC2
 - Amazon RDS (MySQL)
@@ -14,10 +12,10 @@ This project demonstrates how to host a WordPress website using AWS services.
 - Security Groups
 
 ## Architecture
-- EC2 hosts the WordPress application.
-- RDS stores the WordPress database in private subnets.
-- S3 can be used to store exported files or static assets.
-- Security Groups control access between resources.
+- EC2 runs the WordPress application.
+- RDS stores the database in private subnets.
+- S3 stores exported files or static assets.
+- Security Groups control network access.
 
 ## Project Status
-Documentation started. AWS infrastructure setup is the next phase.
+Documentation completed. AWS infrastructure setup is the next phase.
